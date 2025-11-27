@@ -32,6 +32,11 @@
           samtools
           R
 	  bedtools
+
+	  # --- Competitors ---
+	  bcftools
+	  gatk
+	  varscan
         ];
         
         # Help compiler find htslib and zlib

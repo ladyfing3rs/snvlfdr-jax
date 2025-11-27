@@ -5,6 +5,7 @@ Summary: Fast Empirical Bayes Single Nucleotide Variant Calling
 Author-email: bayesgng <prabhatdotdubey@iitb.ac.in>
 Requires-Python: >=3.10
 Description-Content-Type: text/markdown
+License-File: LICENSE
 Requires-Dist: numpy
 Requires-Dist: pandas
 Requires-Dist: jax[cpu]
@@ -12,6 +13,7 @@ Requires-Dist: jaxlib
 Requires-Dist: scipy
 Requires-Dist: pysam
 Requires-Dist: tqdm
+Dynamic: license-file
 
 # SNVLFDR: JAX-Accelerated Empirical Bayes Variant Caller
 
