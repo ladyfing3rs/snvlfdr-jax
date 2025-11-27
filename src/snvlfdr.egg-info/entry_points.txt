@@ -1,0 +1,2 @@
+[console_scripts]
+snvlfdr = snvlfdr.cli:main

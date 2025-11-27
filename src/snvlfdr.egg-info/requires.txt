@@ -1,0 +1,7 @@
+numpy
+pandas
+jax[cpu]
+jaxlib
+scipy
+pysam
+tqdm

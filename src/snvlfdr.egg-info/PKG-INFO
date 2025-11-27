@@ -1,0 +1,35 @@
+Metadata-Version: 2.4
+Name: snvlfdr
+Version: 0.1.0
+Summary: Fast Empirical Bayes Single Nucleotide Variant Calling
+Author-email: bayesgng <prabhatdotdubey@iitb.ac.in>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: jax[cpu]
+Requires-Dist: jaxlib
+Requires-Dist: scipy
+Requires-Dist: pysam
+Requires-Dist: tqdm
+
+# SNVLFDR: JAX-Accelerated Empirical Bayes Variant Caller
+
+A high-performance Python reimplementation of the SNVLFDR R package. This tool uses Empirical Bayes estimation to calculate Local False Discovery Rates (LFDR) for variant calling in next-generation sequencing data.
+
+**Key Features:**
+*   **Speed:** ~300x faster than the original R implementation.
+*   **Scalability:** Supports whole-exome scale data via memory-efficient chunking.
+*   **Performance:** JAX-accelerated math kernel.
+
+## Installation
+
+```bash
+git clone https://github.com/your-repo/snvlfdr.git
+cd snvlfdr
+pip install .
+```
+
+## Usage
+
+### Preprocessing (BAM -> CSV)

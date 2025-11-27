@@ -1,0 +1,32 @@
+cat <<EOF > .gitignore
+# --- Python & Nix ---
+__pycache__/
+*.pyc
+.venv/
+.direnv/
+result/
+
+# --- Large Biological Data (Input/Intermediate) ---
+*.bam
+*.bai
+*.fa
+*.fai
+*.gz
+*.sra
+*.fastq
+*.sam
+*.amb
+*.ann
+*.bwt
+*.pac
+*.sa
+*.bed
+
+# --- Generated Large CSVs ---
+paper_input.csv
+# We keep final_variants.csv if it is small, but ignore huge intermediate ones
+output_filtered_bam.csv
+
+# --- System ---
+.DS_Store
+EOF

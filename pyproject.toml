@@ -1,0 +1,24 @@
+[project]
+name = "snvlfdr"
+version = "0.1.0"
+description = "Fast Empirical Bayes Single Nucleotide Variant Calling"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "pandas",
+    "jax[cpu]", 
+    "jaxlib",
+    "scipy",
+    "pysam",
+    "tqdm"
+]
+authors = [
+  {name = "bayesgng", email = "prabhatdotdubey@iitb.ac.in"}
+]
+
+[project.scripts]
+snvlfdr = "snvlfdr.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/snvlfdr"]
