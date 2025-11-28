@@ -14,7 +14,5 @@ git clone https://github.com/your-repo/snvlfdr.git
 cd snvlfdr
 pip install .
 ```
-
-## Usage
-
-### Preprocessing (BAM -> CSV)
+Repo Needs some polishing... 
+For Suggestions Please Contact: prabhatdotdubey@iitb.ac.in
