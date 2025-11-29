@@ -18,7 +18,7 @@ You will require Nix Package Manager [https://nixos.org/download/](https://nixos
 ## Installation
 
 ```bash
-git clone https://github.com/your-repo/snvlfdr.git
+git clone https://github.com/ladyfing3rs/snvlfdr-jax.git
 cd snvlfdr
 nix develop
 pip install .
