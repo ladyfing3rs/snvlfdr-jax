@@ -21,7 +21,7 @@ You will require Nix Package Manager [https://nixos.org/download/](https://nixos
 git clone https://github.com/ladyfing3rs/snvlfdr-jax.git
 cd snvlfdr
 nix develop
-pip install .
+pip install -e .
 ```
 ---
 
