@@ -34,8 +34,7 @@ print(f"Variants Found: {results['Mutant'].sum()}")
 # 3. Create the Plot (Replicating Figure 4)
 plt.figure(figsize=(10, 6))
 
-# Use a log scale for LFDR because values get very small (1e-20)
-# But standard linear scale (0 to 1) is what the paper likely used for the main view.
+
 sns.scatterplot(
     data=results, 
     x='AF', 
